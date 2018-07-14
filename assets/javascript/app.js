@@ -28,7 +28,7 @@ $(document).ready(function() {
       $(this).addClass("active");
   
       var type = $(this).attr("data-type");
-      var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=aFoK8insmt4M3hWZc11gpoYXtCguNI5a";
+      var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=aFoK8insmt4M3hWZc11gpoYXtCguNI5a";
       
       // creating AJAX call for specific GIF button being clicked
       $.ajax({
